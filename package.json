@@ -1,0 +1,37 @@
+{
+  "name": "duplicate-detector-microservice",
+  "version": "1.0.0",
+  "description": "Node.js microservice for detecting duplicate receipts in RxReceipts application",
+  "homepage": "https://github.com/m-kwon/duplicate-detector-microservice#readme",
+  "bugs": {
+    "url": "https://github.com/m-kwon/duplicate-detector-microservice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-kwon/duplicate-detector-microservice.git"
+  },
+  "license": "MIT",
+  "author": "Matthew Kwon",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "duplicate-detection",
+    "receipts",
+    "microservice",
+    "similarity",
+    "healthcare",
+    "rxreceipts"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
